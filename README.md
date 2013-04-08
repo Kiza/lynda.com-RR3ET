@@ -35,3 +35,15 @@
  rails --version
  
  Rails 3.2.13
+ 
+ # Install Rials on Linux (CentOS)
+ sudo yum install -y ruby
+ 
+ sudo yum install -y ruby-devel ruby-docs ruby-ri ruby-rdoc
+ 
+ sudo yum install -y rubygems
+ 
+ sudo gem update -v
+ 
+ sudo gem install rails -V
+ 
