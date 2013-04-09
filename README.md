@@ -68,18 +68,20 @@
  sudo wget http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
  sudo tar xzvf yaml-0.1.4.tar.gz
  cd yaml-0.1.4
- sudo ./configure --prefix=/usr/local
- sudo make
- sudo make install
+ su
+ ./configure --prefix=/usr/local
+ make
+ make install
   
  sudo wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.gz
  sudo tar xzvf ruby-1.9.3-p327.tar.gz
  cd ruby-1.9.3-p327
- sudo ./configure --prefix=/usr/local --enable-shared --with-opt-dir=/usr/local/lib
- #su
- #sudo make -k > build.log 2>&1
- sudo make
- sudo make install
+ su
+ ./configure --prefix=/usr/local --enable-shared --with-opt-dir=/usr/local/lib
+ #make -k > build.log 2>&1
+ make
+ make install
+ exit
  
  sudo gem update --system -V
  sudo gem install rails -V
