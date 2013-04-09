@@ -1,0 +1,1952 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Thu Mar 28 23:59:34 +0800 2013
+Served asset /rails.png - 200 OK (5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Fri Mar 29 00:08:00 +0800 2013
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/index.html.erb within layouts/application (1.1ms)
+Compiled demo.css  (3ms)  (pid 5506)
+Compiled application.css  (9ms)  (pid 5506)
+Compiled jquery.js  (4ms)  (pid 5506)
+Compiled jquery_ujs.js  (0ms)  (pid 5506)
+Compiled demo.js  (51ms)  (pid 5506)
+Compiled application.js  (112ms)  (pid 5506)
+Completed 200 OK in 219ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /demo.css - 200 OK (2ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /demo.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 00:08:09 +0800 2013
+Served asset /application.js - 200 OK (6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:22:23 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 142ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /demo.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:22:24 +0800 2013
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 01:22:29 +0800 2013
+
+ActionController::RoutingError (No route matches [GET] "/demo/hello"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /demo.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /demo.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:24:29 +0800 2013
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 01:34:37 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:34:43 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:44 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:45 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:36:47 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:21 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:28 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 01:49:35 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at Fri Mar 29 01:49:43 +0800 2013
+Processing by DemoController#other_hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 01:50:33 +0800 2013
+Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at Fri Mar 29 01:50:33 +0800 2013
+Processing by DemoController#other_hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 01:55:28 +0800 2013
+Processing by DemoController#hello as HTML
+Redirected to http://www.google.com
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:08:30 +0800 2013
+Processing by DemoController#hello as HTML
+Redirected to http://www.google.com
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:09:06 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:10:03 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:17:29 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <%@array.each do |n|%>
+    13: 	<%= n %> <br />
+    14: <% end %>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2283994440'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:19:52 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <% @array.each do |n| %>
+    13: 	<%= n %> <br />
+    14: <% end %>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2283379560'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:23:18 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <% @array.each do |n| %>
+    13: 	<%= n %> <br />
+    14: <% end %>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2285329880'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:27:13 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:14 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:17 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:32 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:57 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:27:59 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:13 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:15 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Served asset /demo.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:29 +0800 2013
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:30 +0800 2013
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:28:38 +0800 2013
+Served asset /demo.css - 200 OK (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:29:31 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for 1:Fixnum):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <% @array.each do |n| %>
+    13: 	<%= n %><br />
+    14: <% end%>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2284896800'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:29:36 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for 1:Fixnum):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <% @array.each do |n| %>
+    13: 	<%= n %><br />
+    14: <% end%>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2284896800'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:29:49 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `each' for 1:Fixnum):
+    9: 
+    10: <%= "hello #{target}"%>
+    11: 
+    12: <% @array.each do |n| %>
+    13: 	<%= n %><br />
+    14: <% end%>
+  app/views/demo/hello.html.erb:12:in `_app_views_demo_hello_html_erb__1416568851_2284896800'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (34.3ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.3ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:30:00 +0800 2013
+Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `put' for #<DemoController:0x1107e2988>):
+  app/controllers/demo_controller.rb:22:in `hello'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:30:09 +0800 2013
+Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `put' for #<DemoController:0x110607410>):
+  app/controllers/demo_controller.rb:22:in `hello'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:30:13 +0800 2013
+Processing by DemoController#hello as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `put' for #<DemoController:0x11048e430>):
+  app/controllers/demo_controller.rb:22:in `hello'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /demo.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /demo.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:30:19 +0800 2013
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:45:11 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `linke_to' for #<#<Class:0x1107eea58>:0x110552060>):
+    15: <% end%>
+    16: 
+    17: 
+    18: <%= linke_to("index page", {:action => 'index'})%>
+  app/views/demo/hello.html.erb:18:in `_app_views_demo_hello_html_erb__1416568851_2284487340'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.1ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Processing by DemoController#hello as HTML
+  Rendered demo/hello.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:45:26 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 02:45:29 +0800 2013
+Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at Fri Mar 29 02:45:29 +0800 2013
+Processing by DemoController#other_hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 02:46:14 +0800 2013
+Processing by DemoController#index as HTML
+Redirected to http://localhost:3000/demo/other_hello
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at Fri Mar 29 02:46:14 +0800 2013
+Processing by DemoController#other_hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at Fri Mar 29 02:46:49 +0800 2013
+Processing by DemoController#other_hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:46:54 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Processing by DemoController#index as HTML
+  Rendered demo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 02:57:35 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:00:30 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:47 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:01:48 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:13 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:02:14 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:03:56 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (can't convert Fixnum into String):
+    3: 
+    4: ID, @id: <%= @id%><br />
+    5: ID, params[:id]: <%= params[:id]%><br />
+    6: Next page, @page + 1: <%= @page + 1%>
+    7: 
+    8: 
+    9: <% target = "world"%>
+  app/views/demo/hello.html.erb:6:in `+'
+  app/views/demo/hello.html.erb:6:in `_app_views_demo_hello_html_erb__1416568851_2283543360'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:05:19 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:15 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:17 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:56 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/demo/hello/20?page=5" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Processing by DemoController#hello as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendered demo/hello.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /demo.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /demo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Mar 29 03:06:57 +0800 2013
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mselect sqlite_version(*)[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to DoNothingYet (20130331080632)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331080632')
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331081151')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "users" RENAME TO "admin_users"
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "admin_users" ADD "username" varchar(25)[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.4ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" ADD "salt" varchar(40)
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_admin_users_on_username" ON "admin_users" ("username")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331141934')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DROP INDEX "index_admin_users_on_username"
+  [1m[36m (0.8ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25), "salt" varchar(40)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "admin_users" RENAME TO "users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331141934'
+  [1m[36m (5.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331081151'
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to DoNothingYet (20130331080632)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331080632'[0m
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331080632')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331081151')
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" RENAME TO "admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" ADD "username" varchar(25)
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331081151'[0m
+  [1m[35m (5.3ms)[0m  commit transaction
+Migrating to DoNothingYet (20130331080632)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331080632'
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331080632')
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331081151')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" RENAME TO "admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" ADD "username" varchar(25)
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" RENAME TO "admin_users"
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "admin_users" ADD "username" varchar(25)[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" ADD "salt" varchar(40)
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_admin_users_on_username" ON "admin_users" ("username")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331141934')
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+Migrating to CreateSubjects (20130331161853)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "subjects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130331161853')[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to CreatePages (20130331161859)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "subject_id" integer, "name" varchar(255), "permalink" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_pages_on_subject_id" ON "pages" ("subject_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_pages_on_permalink" ON "pages" ("permalink")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130331161859')[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to CreateSections (20130331161904)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "sections" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "name" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "content_type" varchar(255), "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_sections_on_page_id" ON "sections" ("page_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331161904')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateSections (20130331161904)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DROP INDEX "index_sections_on_page_id"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "sections"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331161904'
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePages (20130331161859)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mDROP INDEX "index_pages_on_permalink"[0m
+  [1m[35m (0.2ms)[0m  DROP INDEX "index_pages_on_subject_id"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331161859'
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSubjects (20130331161853)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "subjects"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331161853'
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP INDEX "index_admin_users_on_username"[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25), "salt" varchar(40)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" RENAME TO "users"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331141934'[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+Migrating to CreateUsers (20130331081151)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "users"
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331081151'[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+Migrating to DoNothingYet (20130331080632)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130331080632'
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331080632')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20130331081151)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331081151')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to AlterUsers (20130331141934)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" RENAME TO "admin_users"[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "admin_users" ADD "username" varchar(25)
+  [1m[36m (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(255) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mCREATE TEMPORARY TABLE "altered_admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "admin_users"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "admin_users"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "admin_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(25), "last_name" varchar(50), "email" varchar(100) DEFAULT '' NOT NULL, "hashed_password" varchar(40), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "username" varchar(25)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "altered_admin_users"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "altered_admin_users"
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "admin_users" ADD "salt" varchar(40)[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_admin_users_on_username" ON "admin_users" ("username")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130331141934')[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+Migrating to CreateSubjects (20130331161853)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "subjects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130331161853')[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+Migrating to CreatePages (20130331161859)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "subject_id" integer, "name" varchar(255), "permalink" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_pages_on_subject_id" ON "pages" ("subject_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_pages_on_permalink" ON "pages" ("permalink")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130331161859')[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+Migrating to CreateSections (20130331161904)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "sections" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "name" varchar(255), "position" integer, "visible" boolean DEFAULT 'f', "content_type" varchar(255), "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_sections_on_page_id" ON "sections" ("page_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130331161904')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+Migrating to CreateSubjects (20130331161853)
+Migrating to CreatePages (20130331161859)
+Migrating to CreateSections (20130331161904)
+Migrating to CreateAdminUsersPagesJoin (20130405163859)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "admin_users_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "admin_user_id" integer, "page_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_admin_users_pages_on_admin_user_id_and_page_id" ON "admin_users_pages" ("admin_user_id", "page_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130405163859')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DoNothingYet (20130331080632)
+Migrating to CreateUsers (20130331081151)
+Migrating to AlterUsers (20130331141934)
+Migrating to CreateSubjects (20130331161853)
+Migrating to CreatePages (20130331161859)
+Migrating to CreateSections (20130331161904)
+Migrating to CreateAdminUsersPagesJoin (20130405163859)
+Migrating to CreateSectionEdits (20130405170355)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "section_edits" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "admin_user_id" integer, "section_id" integer, "summary" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_section_edits_on_admin_user_id_and_section_id" ON "section_edits" ("admin_user_id", "section_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130405170355')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Mon Apr 08 23:59:32 +0800 2013
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/subjects/list" for 127.0.0.1 at Tue Apr 09 00:00:04 +0800 2013
+Processing by SubjectsController#list as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `order' for nil:NilClass):
+  app/controllers/subjects_controller.rb:4:in `list'
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/subjects/list" for 127.0.0.1 at Tue Apr 09 00:00:55 +0800 2013
+Processing by SubjectsController#list as HTML
+  [1m[36mSubject Load (0.4ms)[0m  [1mSELECT "subjects".* FROM "subjects" ORDER BY subjects.position ASC[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 2[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 3
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 4[0m
+  Rendered subjects/list.html.erb within layouts/application (62.5ms)
+Compiled pages.css  (2ms)  (pid 4723)
+Compiled sections.css  (1ms)  (pid 4723)
+Compiled subjects.css  (1ms)  (pid 4723)
+Compiled application.css  (22ms)  (pid 4723)
+Compiled pages.js  (283ms)  (pid 4723)
+Compiled sections.js  (115ms)  (pid 4723)
+Compiled subjects.js  (167ms)  (pid 4723)
+Compiled application.js  (588ms)  (pid 4723)
+Completed 200 OK in 785ms (Views: 781.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Apr 09 00:00:55 +0800 2013
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /demo.css - 200 OK (2ms)
+
+
+Started GET "/assets/sections.css?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /sections.css - 200 OK (2ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /subjects.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /demo.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/sections.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /sections.js - 200 OK (1ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /subjects.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Apr 09 00:00:56 +0800 2013
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/subjects/show/1" for 127.0.0.1 at Tue Apr 09 00:01:01 +0800 2013
+
+AbstractController::ActionNotFound (The action 'show' could not be found for SubjectsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1680446336__call__4__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.13) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.13) lib/rails/commands.rb:55
+  railties (3.2.13) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.13) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
