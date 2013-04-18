@@ -1,5 +1,5 @@
 class Subject < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :name, :position, :visible 
   
   #has_one :page
   has_many :pages
