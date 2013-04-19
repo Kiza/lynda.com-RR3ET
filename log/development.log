@@ -3432,3 +3432,252 @@ Served asset /subjects.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-18 16:56:43 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/subjects/list" for 127.0.0.1 at 2013-04-19 15:58:38 +0800
+Processing by SubjectsController#list as HTML
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 4
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 3[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 5
+  Rendered subjects/list.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 229ms (Views: 220.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /demo.css - 200 OK (1ms)
+
+
+Started GET "/assets/sections.css?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /sections.css - 200 OK (4ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /subjects.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/sections.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /sections.js - 200 OK (4ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /subjects.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /demo.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-19 15:58:39 +0800
+Served asset /pages.js - 200 OK (2ms)
+
+
+Started GET "/subjects/delete/1" for 127.0.0.1 at 2013-04-19 15:58:42 +0800
+Processing by SubjectsController#delete as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered subjects/delete.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/destroy/1" for 127.0.0.1 at 2013-04-19 15:58:45 +0800
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for SubjectsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__311411182__call__227074005__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started POST "/subjects/destroy/1" for 127.0.0.1 at 2013-04-19 15:59:54 +0800
+Processing by SubjectsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LJqIbthCaeDDDSBmYbvWzJJi+eI+tjxKJCgNW0QrotI=", "commit"=>"Delete Subject", "id"=>"1"}
+  [1m[35mSubject Load (0.0ms)[0m  SELECT "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `destory' for #<Subject:0x523d940>):
+  app/controllers/subjects_controller.rb:62:in `destroy'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/subjects/" for 127.0.0.1 at 2013-04-19 16:00:12 +0800
+Processing by SubjectsController#index as HTML
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 2[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 4
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 3[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 5
+  Rendered subjects/list.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 132ms (Views: 129.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/subjects/delete/1" for 127.0.0.1 at 2013-04-19 16:00:15 +0800
+Processing by SubjectsController#delete as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered subjects/delete.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/destroy/1" for 127.0.0.1 at 2013-04-19 16:00:17 +0800
+Processing by SubjectsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LJqIbthCaeDDDSBmYbvWzJJi+eI+tjxKJCgNW0QrotI=", "commit"=>"Delete Subject", "id"=>"1"}
+  [1m[35mSubject Load (0.0ms)[0m  SELECT "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `destory' for #<Subject:0x51678c0>):
+  app/controllers/subjects_controller.rb:62:in `destroy'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started POST "/subjects/destroy/1" for 127.0.0.1 at 2013-04-19 16:00:54 +0800
+Processing by SubjectsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LJqIbthCaeDDDSBmYbvWzJJi+eI+tjxKJCgNW0QrotI=", "commit"=>"Delete Subject", "id"=>"1"}
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (20.0ms)[0m  [1mDELETE FROM "subjects" WHERE "subjects"."id" = ?[0m  [["id", 1]]
+  [1m[35m (120.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/subjects/list
+Completed 302 Found in 152ms (ActiveRecord: 140.0ms)
+
+
+Started GET "/subjects/list" for 127.0.0.1 at 2013-04-19 16:00:54 +0800
+Processing by SubjectsController#list as HTML
+  [1m[36mSubject Load (0.0ms)[0m  [1mSELECT "subjects".* FROM "subjects" ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 2
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 4[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 3
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = 5[0m
+  Rendered subjects/list.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/demo.css?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /demo.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /subjects.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/sections.css?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /sections.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/demo.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /demo.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sections.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /sections.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/subjects.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:55 +0800
+Served asset /subjects.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-19 16:00:56 +0800
+Served asset /application.js - 304 Not Modified (20ms)
